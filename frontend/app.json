@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Agro Mart",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires camera access to capture images for uploading.",
+        "NSPhotoLibraryUsageDescription": "This app requires access to your photo library to upload images.",
+        "NSPhotoLibraryAddUsageDescription": "This app requires access to save images to your photo library."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.pavan147.frontend",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+  "expo-image-picker",
+  "expo-camera",
+  "expo-font"
+]
+
+    ,
+    "extra": {
+      "eas": {
+        "projectId": "bc833d6a-749d-412e-b8c5-ea0a6b4be9bb"
+      }
+    }
+  }
+}

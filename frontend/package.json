@@ -1,0 +1,63 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@google/generative-ai": "^0.20.0",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-picker/picker": "2.9.0",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "@react-navigation/stack": "^6.4.1",
+    "axios": "^1.7.9",
+    "babel-preset-expo": "^12.0.6",
+    "expo": "52.0.35",
+    "expo-camera": "~16.0.16",
+    "expo-font": "~13.0.3",
+    "expo-image-picker": "~16.0.6",
+    "expo-status-bar": "~2.0.1",
+    "link": "^2.1.1",
+    "metro": "^0.81.0",
+    "metro-config": "^0.81.0",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "metro-resolver": "^0.81.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-markdown-display": "^7.0.2",
+    "react-native-paper": "^5.12.5",
+    "react-native-svg": "^15.11.1",
+    "react-native-toast-message": "^2.2.1",
+    "react-native-web": "~0.19.13",
+    "recharts": "^2.15.1",
+    "victory-native": "^41.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@expo/metro-config": "~0.19.0",
+    "@react-native/metro-config": "^0.76.2"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": [
+          "<react-native-image-crop-picker>"
+        ],
+        "listUnknownPackages": false
+      }
+    }
+  },
+  "private": true
+}
